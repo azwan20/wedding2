@@ -50,7 +50,7 @@ body {
   z-index: 0;
   /* bottom: 15%; */
   right: 37%;
-  display: flex;
+  display: none;
 }
 
 .homes {
