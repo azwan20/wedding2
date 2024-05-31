@@ -65,7 +65,7 @@ export default function Home() {
     <>
       <div className="home">
         <div className="contentUtama">
-        <audio ref={audioRef} src="dipertigamalam.mp3" loop autoplay />
+          <audio ref={audioRef} src="dipertigamalam.mp3" loop autoplay />
           <div className="sound" onClick={handleSound}>
             {!sound ? (
               <svg className="m-auto" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -78,8 +78,8 @@ export default function Home() {
             )}
           </div>
           {renderContent()}
-          <Navbar setActiveIndex={setActiveIndex} navbar={navbar} />
         </div>
+          <Navbar setActiveIndex={setActiveIndex} navbar={navbar} />
       </div>
     </>
   );
