@@ -4,16 +4,15 @@ export default function Quran() {
     return (
         <>
             <div className="quran">
-                <div className="d-flex justify-content-center">
-                    <img src="/img3.png" />
-                </div>
-                <section className="mb-3">
-                    <p className="fw-bold lh-lg">وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا لِّتَسْكُنُوْٓا اِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً وَّرَحْمَةً ۗاِنَّ فِيْ ذٰلِكَ لَاٰيٰتٍ لِّقَوْمٍ يَّتَفَكَّرُوْنَ - ٢١</p>
+            <img src="https://akcdn.detik.net.id/community/media/visual/2020/03/17/2dea2ce0-842e-467c-bb89-0bbe43eb2ef0.jpeg?q=90&w=480" width={100} />
+            <div className="d-flex flex-column ms-3 px-5 justify-content-center align-items-center" style={{paddingTop: '450px'}}>
+            <section className="mb-3">
+                    <p className="fw-bold lh-lg">Baarokalaahu laka wabaaroka 'alaika wajama'a bainakumaa fii khoirin.</p>
                 </section>
                 <section>
-                    <p>Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.</p>
-                    <p style={{ marginTop: '20px' }}>(Q.S Ar-Ruum 30:21)</p>
+                    <p>Artinya: "Semoga Allah memberkahimu di waktu bahagia dan memberkahimu di waktu susah, dan semoga Allah menyatukan kalian dalam kebaikan."</p>
                 </section>
+            </div>
             </div>
         </>
     )

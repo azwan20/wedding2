@@ -12,19 +12,21 @@ export default function Thankss() {
     return (
         <>
             <div className="px-3">
-                <section className="mb-5 px-5 fw-bolder">
-                    <p className="fw-bolder lh-lg">Merupakan suatu harapan dan kehormatan atas kehadiran anda untuk merestui hubungan kami.</p>
+                <section className="d-flex w-100 align-items-center justify-content-center">
+                    <img className="imgStat" src="/imgLogo.png" />
+                </section>
+                <section className="mb-5 px-2 fw-bolder">
+                    <p className="fw-bolder m-0">Merupakan suatu kebahagiaan dan kehormatan apabila bapak/ibu saudara(i) berkenan untuk hadir dan memberikan do’a restu kepada kami kedua mempelai</p>
                 </section>
                 <section>
-                    <h3 className="mb-3">Turut Mengundang</h3>
+                    <h3 className="mb-3">HORMAT  KAMI</h3>
                     <span className="my-4">
-                    {nama.map((item, index) => (
-                        <span key={item} className="my-0" style={{color: '#581D35'}}>
-                            <p className="my-0">{item}</p>
-                        </span>
-                    ))}
+                        {nama.map((item, index) => (
+                            <span key={item} className="my-0" style={{ color: '#581D35' }}>
+                                <p className="my-0">{item}</p>
+                            </span>
+                        ))}
                     </span>
-                    <h5 className="mt-5 fw-bold">Wassalamualaikum warahmatullahi Wabarakatu</h5>
                 </section>
             </div>
         </>

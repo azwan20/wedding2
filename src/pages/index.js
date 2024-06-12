@@ -8,6 +8,7 @@ import Quran from "./quran";
 import Salam from "./salam";
 import Thanks from "./gift";
 import Thankss from "./thanks";
+import Gallery from "./gallery";
 
 export default function Home() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -45,9 +46,9 @@ export default function Home() {
       case 1:
         return <Quran />;
       case 2:
-        return <Salam />;
-      case 3:
         return <Mempelai />;
+      case 3:
+        return <Salam />;
       case 4:
         return <Maps />;
       case 5:
@@ -79,7 +80,7 @@ export default function Home() {
           </div>
           {renderContent()}
         </div>
-          <Navbar setActiveIndex={setActiveIndex} navbar={navbar} />
+        <Navbar setActiveIndex={setActiveIndex} navbar={navbar} />
       </div>
     </>
   );

@@ -4,13 +4,16 @@ export default function Thanks() {
     return (
         <>
             <div className="gift my-5">
-                <section>
-                    <h4 className="fs-1" style={{fontWeight: '900'}}>Terima kasih</h4>
-                    <p className="px-5">Terima kasih atas partisipasi kehadiran dan hadiah anda</p>
-                    <button style={{margin: '0 auto'}}>Kirim Hadiah</button>
+                <section className="d-flex w-100 align-items-center justify-content-center">
+                    <img className="imgStat" src="/imgLogo.png" />
                 </section>
-                <section className="inputUcapan" style={{height: 'fitContent', width: '65%'}}>
-                    <div className="my-auto">
+                <section>
+                    <h4 className="fs-1" style={{ fontWeight: '900' }}>Terima kasih</h4>
+                    <p className="px-5">Terima kasih atas partisipasi kehadiran dan hadiah anda</p>
+                    <button style={{ margin: '50px auto' }}>Kirim Hadiah</button>
+                </section>
+                <section className="d-flex justify-content-center align-items-center">
+                    <div className="rek my-auto d-flex justify-content0center flex-column align-items-center">
                         <section className="mb-4 d-flex justify-content-center align-items-center">
                             BRI
                             <span>
