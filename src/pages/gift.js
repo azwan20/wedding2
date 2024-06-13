@@ -8,7 +8,7 @@ export default function Thanks() {
                     <img className="imgStat" src="/imgLogo.png" />
                 </section>
                 <section>
-                    <h4 className="fs-1" style={{ fontWeight: '900' }}>Terima kasih</h4>
+                    <h4 className="fs-1" style={{ fontWeight: '900', color: '#0C359E' }}>Terima kasih</h4>
                     <p className="px-5">Terima kasih atas partisipasi kehadiran dan hadiah anda</p>
                     <button style={{ margin: '50px auto' }}>Kirim Hadiah</button>
                 </section>

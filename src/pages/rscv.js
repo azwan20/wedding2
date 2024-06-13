@@ -14,7 +14,7 @@ export default function Gift() {
                     <img className="imgStat" src="/imgLogo.png" />
                 </section>
                 <section>
-                    <h4 className="mb-5">Terima Kasih</h4>
+                    <h4 className="mb-5" style={{color: '#0C359E'}}>Terima Kasih</h4>
                     <p className="fw-bolder">Nikah adalah sunnahku (tuntunanku). Maka barang siapa yang tidak suka dengan sunnahku (itu) bukanlah dia dari golonganku”. <br /> <br /> (HR. Ibnu Majah)</p>
                     <button onClick={handleHide} style={{ margin: '50px auto' }}>Kirim Ucapan</button>
                 </section>

@@ -146,6 +146,10 @@ body {
   color: var(--four-color) !important; 
 }
 
+.navbar svg path{
+  fill: var(--four-color) !important;
+}
+
 .quran>section,
 .salam>section,
 .gift section {
@@ -197,8 +201,9 @@ body {
 
 .mempelai h3 {
   font-family: "Lobster", sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
+  color: var(--four-color);
 }
 
 .mempelai p,
@@ -350,7 +355,11 @@ svg{
 .gallery section div{
   width: 100px;
   height: 100px;
-  background-color: firebrick;
+  background-color: var(--five-colors);
+}
+
+.gallery h3{
+  color: var(--four-color);
 }
 
 @media screen and (min-width: 221px) and (max-width: 480px) {
@@ -386,6 +395,7 @@ svg{
 
   .gift h4 {
     margin-bottom: 0 !important;
+    color: var(--four-color) !important;
   }
 
   .sound {

@@ -54,8 +54,10 @@ export default function Home() {
       case 5:
         return <Gift />;
       case 6:
-        return <Thanks />;
+        return <Gallery />;
       case 7:
+        return <Thanks />;
+      case 8:
         return <Thankss />;
       default:
         return <div>Select an item</div>;
