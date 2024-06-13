@@ -67,6 +67,7 @@ export default function Navbar({ setActiveIndex, navbar }) {
         <>
             {navbar && (
                 <div className="navbar">
+                    <div className="navbar-item">
                         {svgItems.map((item, index) => (
                             <section key={item} className="mx-2" onClick={() => setActiveIndex(index)}>
                                 <p>{item}</p>
